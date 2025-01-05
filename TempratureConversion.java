@@ -9,7 +9,7 @@ public class TempratureConversion {
         System.out.println("Press 1 for farenheit to celsius.\nPress 2 for farenheit to kelvin.\nPress 3 for celsius to farenheit.\nPress 4 for Celsius to kelvin.\nPress 5 for kelvin to farenheit.\nPress 6 for kelvin to celsius.");
         Scanner input = new Scanner(System.in);
         choice = input.nextInt();
-
+  
         switch (choice) {
             case 1:
                 System.out.println("Enter the temprature in farenheit");
